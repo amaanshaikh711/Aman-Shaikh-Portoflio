@@ -25,13 +25,6 @@ import {
   future_interns,
   codtech,
   lusso_homes,
-  insightify,
-  ml_task,
-  mz_autoworks,
-  churn_prediction,
-  lusso_homes_video,
-  luxury_watches,
-  weather_dashboard,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -113,14 +106,6 @@ const technologies: TTechnology[] = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences: TExperience[] = [
@@ -200,8 +185,8 @@ const projects: TProject[] = [
     name: "Insightify",
     description: "",
     tags: [],
-    image: "", // Placeholder or thumbnail if needed
-    video: insightify,
+    image: "",
+    video: "https://drive.google.com/uc?id=1NfehIJLPJiGv3dLlwaY49QLXT6sJQo5T",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -209,7 +194,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: mz_autoworks,
+    video: "https://drive.google.com/uc?id=1YzA-z_HSwfNp-HUXHaGg94HPFfFuAwU3",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -217,7 +202,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: lusso_homes_video,
+    video: "https://drive.google.com/uc?id=1InDZZjNUjJiNXof-DOhRncxDWKxs_UnX",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -225,7 +210,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: luxury_watches,
+    video: "https://drive.google.com/uc?id=1FG2ppz5xWFbBipjtZOkM7o0bLSjBt6_l",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -233,7 +218,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: churn_prediction,
+    video: "https://drive.google.com/uc?id=1vrP1XlIGulSapNPx0-EBV6qyPIz_JsES",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -241,7 +226,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: weather_dashboard,
+    video: "https://drive.google.com/uc?id=1DkR9bAaL6LjMHmzrHjtziIfRms3xxjYZ",
     sourceCodeLink: "https://github.com/",
   },
   {
@@ -249,7 +234,7 @@ const projects: TProject[] = [
     description: "",
     tags: [],
     image: "",
-    video: ml_task,
+    video: "https://drive.google.com/uc?id=1zXPcAzaf4IJefxS31wrKdpo095mwJ0ra",
     sourceCodeLink: "https://github.com/",
   },
 ];

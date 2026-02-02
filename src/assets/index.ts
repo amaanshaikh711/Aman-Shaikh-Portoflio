@@ -33,14 +33,6 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import insightify from "./videos/insightify.mp4";
-import ml_task from "./videos/ml_task.mp4";
-import mz_autoworks from "./videos/mz_autoworks.mp4";
-import churn_prediction from "./videos/churn_prediction.mp4";
-import lusso_homes_video from "./videos/lusso_homes.mp4";
-import luxury_watches from "./videos/luxury_watches.mp4";
-import weather_dashboard from "./videos/weather_dashboard.mp4";
-
 export {
   logo,
   backend,
@@ -73,11 +65,4 @@ export {
   carrent,
   jobit,
   tripguide,
-  insightify,
-  ml_task,
-  mz_autoworks,
-  churn_prediction,
-  lusso_homes_video,
-  luxury_watches,
-  weather_dashboard,
 };
