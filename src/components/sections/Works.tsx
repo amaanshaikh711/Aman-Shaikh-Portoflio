@@ -1,3 +1,4 @@
+import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -15,8 +16,19 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   description,
   tags,
   image,
+  video,
   sourceCodeLink,
 }) => {
+  const videoRef = React.useRef<HTMLVideoElement>(null);
+
+  React.useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch((error) => {
+        console.error("Video autoplay failed:", error);
+      });
+    }
+  }, []);
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -26,13 +38,25 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[360px]">
           <div className="relative h-[230px] w-full">
-            <img
-              src={image}
-              alt={name}
-              className="h-full w-full rounded-2xl object-cover"
-            />
+            {video ? (
+              <video
+                ref={videoRef}
+                src={video}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="h-full w-full rounded-2xl object-cover"
+              />
+            ) : (
+              <img
+                src={image}
+                alt={name}
+                className="h-full w-full rounded-2xl object-cover"
+              />
+            )}
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
               <div
                 onClick={() => window.open(sourceCodeLink, "_blank")}

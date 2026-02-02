@@ -17,21 +17,21 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  future_interns,
+  codtech,
+  lusso_homes,
+  insightify,
+  ml_task,
+  mz_autoworks,
+  churn_prediction,
+  lusso_homes_video,
+  luxury_watches,
+  weather_dashboard,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,16 +55,16 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning",
+    icon: creator,
+  },
+  {
+    title: "Next JS",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Python Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -89,10 +89,10 @@ const technologies: TTechnology[] = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -113,68 +113,58 @@ const technologies: TTechnology[] = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Machine Learning Intern",
+    companyName: "Future Interns",
+    icon: future_interns,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2025 – January 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on core Machine Learning concepts including data preprocessing, model training, and evaluation.",
+      "Implemented ML algorithms using Python and relevant libraries.",
+      "Gained hands-on experience with real-world datasets and problem-solving workflows.",
+      "Improved understanding of ML pipelines and practical deployment concepts.",
     ],
+    skills: ["Python", "Machine Learning", "Data Analysis", "Model Evaluation"],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Freelance Web Developer",
+    companyName: "Lusso Homes",
+    icon: lusso_homes,
+    iconBg: "#f3f3f3",
+    date: "December 2025",
+    points: [
+      "Built and hosted a professional, responsive real estate website from scratch.",
+      "Designed a user-friendly platform that enhanced digital presence and client interaction.",
+      "Incorporated complex client requirements effectively into a high-quality final product.",
+      "Ensured seamless hosting and performance optimization for a premium user experience.",
+    ],
+    skills: ["Web Development", "Frontend Design", "UI/UX", "Website Hosting"],
+  },
+  {
+    title: "Python Programming Intern",
+    companyName: "Codtech IT Solutions Pvt. Ltd.",
+    icon: codtech,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2025 – December 2025 (6 Weeks)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and tested Python-based programs for practical use cases.",
+      "Strengthened fundamentals of logic building, debugging, and clean code practices.",
+      "Worked on small real-world tasks aligned with industry-style problem solving.",
+      "Demonstrated consistency, learning ability, and professional work ethics.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    skills: ["Python", "Problem Solving", "Programming Fundamentals"],
   },
 ];
 
@@ -207,66 +197,59 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
+    name: "Insightify",
+    description: "",
+    tags: [],
+    image: "", // Placeholder or thumbnail if needed
+    video: insightify,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
+    name: "MZ Autoworks",
+    description: "",
+    tags: [],
+    image: "",
+    video: mz_autoworks,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    name: "Lusso Homes",
+    description: "",
+    tags: [],
+    image: "",
+    video: lusso_homes_video,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Luxury Watches",
+    description: "",
+    tags: [],
+    image: "",
+    video: luxury_watches,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Churn Prediction",
+    description: "",
+    tags: [],
+    image: "",
+    video: churn_prediction,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Weather Dashboard",
+    description: "",
+    tags: [],
+    image: "",
+    video: weather_dashboard,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Sales Dashboard with Prediction",
+    description: "",
+    tags: [],
+    image: "",
+    video: ml_task,
     sourceCodeLink: "https://github.com/",
   },
 ];

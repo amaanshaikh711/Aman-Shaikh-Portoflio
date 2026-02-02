@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Aman Shaikh — 3D Portfolio",
+    fullName: "Aman Shaikh",
+    email: "skhamaan7@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Aman Shaikh",
+    p: ["Computer Science student", "& hands-on freelance developer building real-world web and software solutions."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,9 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I’m a Computer Science student and hands-on freelance developer focused on building real-world web and software solutions. My work spans JavaScript-based applications using modern frameworks like Next.js, along with backend and data-driven projects in Python.
+
+                I’ve built and delivered freelance eCommerce websites, working end-to-end on features, integrations, and user experience. Alongside web development, I actively work on machine learning projects, applying practical ML concepts to solve real problems. I value clean code, performance, and maintainability, and I focus on building solutions that are reliable and production-ready.`,
     },
     experience: {
       p: "What I have done so far",
