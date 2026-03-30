@@ -22,6 +22,9 @@ import {
   mongodb,
   git,
   threejs,
+  python,
+  nextjs,
+  flask,
   future_interns,
   codtech,
   lusso_homes,
@@ -82,10 +85,18 @@ const technologies: TTechnology[] = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -156,7 +167,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Aman proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -164,7 +175,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Aman does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -172,7 +183,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Aman optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

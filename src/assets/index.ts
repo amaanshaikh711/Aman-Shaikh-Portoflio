@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import herobg from "./herobg.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import nextjs from "./tech/nextjs.svg";
+import flask from "./tech/flask.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,6 +39,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  herobg,
   backend,
   creator,
   mobile,
@@ -55,6 +60,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  nextjs,
+  flask,
   meta,
   shopify,
   starbucks,
