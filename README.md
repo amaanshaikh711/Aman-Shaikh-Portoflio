@@ -2,7 +2,7 @@
 
 A highly interactive, professional developer portfolio built to showcase real-world projects, machine learning infrastructure, and frontend engineering expertise.
 
-Live Demo - aman-shaikh.vercel.app
+Live Demo - [aman-shaikh.vercel.app](https://aman-shaikh.vercel.app)
 
 ## 🚀 Overview
 
