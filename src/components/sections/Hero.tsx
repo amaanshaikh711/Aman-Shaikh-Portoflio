@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="absolute top-[30%] -right-[15%] w-[50%] h-[50%] rounded-[100%] bg-[#c8b4ff] mix-blend-screen filter blur-[150px] opacity-[0.08]" />
       </div>
 
-      <div className={`w-full max-w-7xl mx-auto ${styles.paddingX} flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16 relative z-10`}>
+      <div className={`w-full max-w-7xl mx-auto ${styles.paddingX} flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-16 relative z-10`}>
 
         {/* Left Side: Text Content */}
         <motion.div
@@ -50,7 +50,7 @@ const Hero = () => {
           </h1>
 
           <h2 className="font-bold text-[#dfd9ff] text-2xl sm:text-3xl lg:text-4xl leading-snug mb-5">
-            I build <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-[#c8b4ff]">AI-powered web applications</span> that solve real-world problems.
+            I build <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-[#c8b4ff]">AI-powered web applications</span> that solve real world problems.
           </h2>
 
           <p className="text-secondary text-base sm:text-lg lg:text-[19px] leading-relaxed mb-8 max-w-[540px] font-medium">
@@ -81,7 +81,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.95, x: 20 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-          className="flex-1 w-full flex justify-center lg:justify-end items-center relative mt-12 lg:mt-0"
+          className="flex-1 w-full flex justify-center lg:justify-end items-center relative pb-6 lg:pb-0"
         >
           {/* Responsive sizing container for the avatar - slightly reduced max sizes for balance */}
           <div className="relative w-full max-w-[300px] sm:max-w-[360px] lg:max-w-[420px] aspect-square flex justify-center items-center">

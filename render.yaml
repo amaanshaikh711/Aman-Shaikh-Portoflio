@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: 3d-portfolio
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    # If dealing with React Router for SPA:
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
